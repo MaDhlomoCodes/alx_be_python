@@ -1,6 +1,5 @@
 weather = input("How is the weather today? ").lower()
 
-# Check conditions
 if weather == "sunny":
     print("It's a bright and sunny day!")
 elif weather == "rainy":
@@ -9,3 +8,4 @@ elif weather == "cold":
     print("Make sure to wear warm clothes; it's cold outside.")
 else:
     print("Hmm, I don't recognize that weather condition.")
+
